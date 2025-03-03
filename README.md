@@ -9,7 +9,7 @@ My goal is to continue my education until I obtain an engineering degree in Netw
 # Project Overview 
 |     Project             |                 Skills                      |     Tools         |      Link       |
 | ----------------------- | ------------------------------------------- | ----------------- | --------------- |
-| English vocabulary quiz | Python, Test and Debbug Archtecture, Implementation of Rules, Text Normalization       | Terminal, Mistral |  <a href="script.py">English vocabulary quiz</a> |
+| English vocabulary quiz | Python, Test and Debbug Archtecture, Implementation of Rules, Text Normalization       | Terminal, Mistral |  <a href="script.py">code source</a>, <a href="script.py">filed</a> |
 
 
 # Certifications 
