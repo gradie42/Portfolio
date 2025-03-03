@@ -1,0 +1,151 @@
+rewarding:enrichissant:7
+emphasizing:souligner:7
+outsource:externaliser:7
+displace:remplacer:7
+kick:coup:7
+sweeping:balayage:7
+evenly:uniformement:7
+launched:lancé:7
+settle:contenter:7
+outsmarted:déjoué:7
+crumble:deteriorer:7
+tailored:adapter à:7
+blend:melange:7
+unveiled:dévoilé:7
+heavy:lourd:7
+triggers:declencheurs:7
+overall health:etat de sante general:7
+i guess:je suppose:7
+suitable:appropié:7
+stuck:bloqué:7
+strain:tension:7
+roof:plafond:7
+logging off:deconnexion:7
+this far:jusqu'ici:7
+though:cependant:7
+fulfilled:epanoui:7
+strive:aspirer:7
+sparking:susciter:7
+rambling:divagation:7
+overcome:surmonter:7
+fearful:craintif:7
+unrest:trouble:7
+sustain:maintenir:7
+rude:grossier:7
+harmful:nuisible:7
+resign:demissionner:7
+betrayal:trahison:7
+would:aurait:7
+should:devrait:7
+could:pourrait:7
+deal reached:accord conclu:7
+spy ships:navire espion:7
+raw material:matière première:7
+weapons:armes:7
+otherwise:sinon:7
+outcome:resultat:7
+pleased:heureux:7
+willing:disposé:7
+knife:couteau:7
+inquiry:enquete:7
+chest:poitrine:7
+stabbed:poignardé:7
+will recover:rétabliront:7
+expel:expulser:7
+power outage:panne de courant:7
+mainly:principalement:7
+empty:vide:7
+laundry:buanderie:7
+warm:chaud:7
+heavly:fortement:7
+reluctant:reticent:7
+i would like:je voudrais:7
+atleast:au moins:7
+upset:bouleversé:7
+prone:sujet:7
+showcase:mettre en valeur:7
+quite:assez:7
+shadowing:assombrir:7
+fair:juste:7
+shifted:décalé:7
+counterargument:contre-argument:7
+underlying:sous-jacent:7
+thrive:prospérer:7
+vouched:s'est porté garant:7
+drafted:préparer:7
+quiet:calme:7
+accustomed:habitué:7
+although:bien que:7
+bind:lier:7
+messy:desordre:7
+unkempt:negligé:7
+whereby:par lequel:7
+neither:ni l'un ni l'autre:7
+legal hurdles:obstacles juridiques:7
+aired:diffusé:7
+filed:déposé:7
+nearby:proche:7
+rough sea:mer agité:7
+gusts:rafales:7
+dryer:sechoir:7
+hanger:cintre:7
+fee:frais:7
+rough day:dure journee:7
+wide:large:7
+perhaps rightly:peut-etre à juste titre:7
+run-up:montee en puissance:7
+we have been looking forward:nous attendions avec impatience:7
+shrunk:retreci:7
+foreseeable:previsible:7
+beyond:au-dela:7
+shelved:mis a l'ecart:7
+agreement:accord:7
+tearing up:dechirer:7
+sharp increase:forte augmentation:7
+grappling:lutter avec:7
+drawn up:redige:7
+subsidies:subventions:7
+lately:dernierement:7
+previously forecast:prevu precedemment:7
+looms large:occupe une place importante:7
+in gear:en prise:7
+earnings:gains:7
+along with:avec:7
+as a whole:dans son ensemble:7
+is struggling:a du mal:7
+polls:sondages:7
+collapse:effondrement:7
+praised:vanté:7
+spanning:s'étendant:7
+scale:echelle:7
+power supplies:alimentations:7
+flee:fuir:7
+looting:pillage:7
+amid:à la suite de:7
+spreading:diffusion:7
+lurking:cache:7
+that evening:ce soir-là:7
+steered:dirige:7
+ashore: a terre:7
+beg the question:pose la question:7
+rock bottom:au fond:7
+wounded:blesse:7
+warfare:guerre:7
+warehouses:entrepots:7
+railway networks:reseaux ferroviaires:7
+prompted:invité:7
+shallow waters:eaux peu profondes:7
+seabed:fonds marins:7
+any scale:toute ampleur:7
+groundless:infondé:7
+once-mighty:autrefois puissant:7
+reliable:fiable:7
+copper:cuivre:7
+scalability:evolutivite:7
+assets:actifs:7
+fault:panne:7
+failure:echec:7
+timely:temps opportun:7
+unaware:ignorant:7
+set:ensemble:7
+occurs:produit:7
