@@ -2,12 +2,12 @@
 
 The aim goal of this program is to improve my english. I want and I need to sharp increase my vocabulary, to have more facility to read, write and speak.
 
-# this program is composed by threee parties : 
+## this program is composed by threee parties : 
   - the script in python
   - the file mots.txt that contain the list of words in french and english
   - the menu
 
-# For the script, it was necessary to add somes criteria to have the right fonctionnality for the program like : 
+## For the script, it was necessary to add somes criteria to have the right fonctionnality for the program like : 
   - To have the right to add and delete a word to the list of the word
   - Normaliszation to make sure that the program will be indifferent face  to accent
   - Each word have tubbles (developper), that's mean a word must have a translation in english or french
@@ -16,7 +16,7 @@ The aim goal of this program is to improve my english. I want and I need to shar
   - 
 
 
-# In the menu you have five choices : 
+## In the menu you have five choices : 
   - 1 : Add a word
   - 2 : ask yourself
   - 3 : display the list of the words
@@ -28,6 +28,6 @@ For the first the program will ask you to write a word in french or english and 
 Secondly, the program will ask you a word in english or french and and then it will ask you to write the translation for the word. 
 If it correct, 
 
-# Some things, I need to ameliorate in this program : 
+## Some things, I need to ameliorate in this program : 
 
 - ...
