@@ -11,9 +11,9 @@ The aim goal of this program is to improve my english. I want and I need to shar
   - To have the right to add and delete a word to the list of the word
   - Normaliszation to make sure that the program will be indifferent face  to accent
   - Each word have a complementary word, that's mean a word must have a translation in english or french
-  - Each word have a number of points 0 to 7, when the word obtain the maximum of points the program will not ask you about this word
-  - Ask you in aleatory way , that's mean it doesn't folLow the order of the list to ask you OK
-  - Sometimes, it can start to ask you the translation for the word in english or the contrary with french
+  - Each word have a number of points 0 to 7, when the word have obtained the maximum of points the program will not ask you about this word
+  - Ask you in aleatory way , that's mean it doesn't folLow the order of the list to ask you 
+  - Sometimes, it can start to ask you the translation for the word in english or the contrary in french
 
 
 ## In the menu you have five choices : 
