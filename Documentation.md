@@ -25,6 +25,7 @@ The aim goal of this program is to improve my english. I want and I need to shar
 
 For the first the program will ask you to write a word in french or english and then it will ask you to write the translation for the word.
 
+
 Secondly, the program will ask you a word in english or french and and then it will ask you to write the translation for the word. 
 If it correct, 
 
