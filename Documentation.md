@@ -23,11 +23,12 @@ The aim goal of this program is to improve my english. I want and I need to shar
   - 4 : delete a word
   - 5 : quit
 
-For the first the program will ask you to write a word in french or english and then it will ask you to write the translation for the word.
-
+For the first the program will ask you to write a word in french or english and then it will ask you to write the translation.
 
 Secondly, the program will ask you a word in english or french and and then it will ask you to write the translation for the word. 
-If it correct, 
+If your respond it's correct, the program will add 1 point to the word. If it is not correct you will have the display of the sentance " Incorrect. The correct answer was : {correct_answer}"
+
+
 
 ## Some things, I need to ameliorate in this program : 
 
