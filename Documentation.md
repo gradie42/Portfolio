@@ -23,11 +23,18 @@ The aim goal of this program is to improve my english. I want and I need to shar
   - 4 : delete a word
   - 5 : quit
 
-For the first the program will ask you to write a word in french or english and then it will ask you to write the translation.
+## How the program will react after the selection of one number from the menu 
 
-Secondly, the program will ask you a word in english or french and and then it will ask you to write the translation for the word. 
+1 : For the first the program will ask you to write a word in french or english and then it will ask you to write the translation.
+
+2 : Secondly, the program will ask you a word in english or french and and then it will ask you to write the translation for the word. 
 If your respond it's correct, the program will add 1 point to the word. If it is not correct you will have the display of the sentance " Incorrect. The correct answer was : {correct_answer}"
 
+3 : Thristly, you will have the list of the word with their translation and the number of the points. Each word will be associated to the a number. Thsi number will permit to select a word on the list and to delete it.
+
+4 : Te program will display the list of the word and you will need to select one number associated to the word that you want to delete.
+
+5 : the prorgam will close.
 
 
 ## Some things, I need to ameliorate in this program : 
