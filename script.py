@@ -1,160 +1,160 @@
 import random
 import unicodedata
 
-def supprimer_accents(chaine):
-    """Supprime les accents d'une chaîne de caractères."""
+def remove_accents(string):
+    """Removes accents from a string."""
     return ''.join(
-        caractere for caractere in unicodedata.normalize('NFD', chaine)
-        if unicodedata.category(caractere) != 'Mn'
+        char for char in unicodedata.normalize('NFD', string)
+        if unicodedata.category(char) != 'Mn'
     )
 
-def demander_mot():
-    # Choix aléatoire entre demander d'abord l'anglais ou le français
+def ask_word():
+    # Random choice between asking for English or French first
     if random.choice([True, False]):
-        mot_anglais = input("Entrez un mot en anglais (ou 'quit' pour quitter) : ")
-        if mot_anglais.lower() == "quit":
+        english_word = input("Enter a word in English (or 'quit' to exit) : ")
+        if english_word.lower() == "quit":
             return None, None
-        mot_francais = input("Entrez sa traduction en français : ")
+        french_word = input("Enter its translation in French : ")
     else:
-        mot_francais = input("Entrez un mot en français (ou 'quit' pour quitter) : ")
-        if mot_francais.lower() == "quit":
+        french_word = input("Enter a word in French (or 'quit' to exit) : ")
+        if french_word.lower() == "quit":
             return None, None
-        mot_anglais = input("Entrez sa traduction en anglais : ")
+        english_word = input("Enter its translation in English : ")
     
-    return mot_anglais, mot_francais
+    return english_word, french_word
 
-def enregistrer_mot(mot_anglais, mot_francais):
-    with open("mots.txt", "a") as fichier:
-        fichier.write(f"{mot_anglais}:{mot_francais}:0\n")  # Ajouter 0 points par défaut
+def save_word(english_word, french_word):
+    with open("words.txt", "a") as file:
+        file.write(f"{english_word}:{french_word}:0\n")  # Add 0 points by default
 
-def charger_mots():
-    mots = []
+def load_words():
+    words = []
     try:
-        with open("mots.txt", "r") as fichier:
-            for ligne in fichier:
-                mot_anglais, mot_francais, points = ligne.strip().split(":")
-                mots.append((mot_anglais, mot_francais, int(points)))
+        with open("words.txt", "r") as file:
+            for line in file:
+                english_word, french_word, points = line.strip().split(":")
+                words.append((english_word, french_word, int(points)))
     except FileNotFoundError:
-        print("Aucun mot n'a été enregistré pour le moment.")
-    return mots
+        print("No words have been recorded yet.")
+    return words
 
-def sauvegarder_mots(mots):
-    with open("mots.txt", "w") as fichier:
-        for mot_anglais, mot_francais, points in mots:
-            fichier.write(f"{mot_anglais}:{mot_francais}:{points}\n")
+def save_words(words):
+    with open("words.txt", "w") as file:
+        for english_word, french_word, points in words:
+            file.write(f"{english_word}:{french_word}:{points}\n")
 
-def afficher_mots():
-    mots = charger_mots()
-    if not mots:
-        print("Aucun mot n'a été enregistré pour le moment.")
+def display_words():
+    words = load_words()
+    if not words:
+        print("No words have been recorded yet.")
         return
     
-    print("\nListe des mots enregistrés :")
-    for i, (mot_anglais, mot_francais, points) in enumerate(mots, start=1):
-        print(f"{i}. {mot_anglais} : {mot_francais} (Points : {points})")
+    print("\nList of recorded words :")
+    for i, (english_word, french_word, points) in enumerate(words, start=1):
+        print(f"{i}. {english_word} : {french_word} (Points : {points})")
 
-def supprimer_mot():
-    mots = charger_mots()
-    if not mots:
-        print("Aucun mot n'a été enregistré pour le moment.")
+def delete_word():
+    words = load_words()
+    if not words:
+        print("No words have been recorded yet.")
         return
     
-    afficher_mots()
+    display_words()
     try:
-        choix = int(input("\nEntrez le numéro du mot à supprimer : "))
-        if 1 <= choix <= len(mots):
-            mot_supprime = mots.pop(choix - 1)
-            sauvegarder_mots(mots)
-            print(f"Le mot '{mot_supprime[0]} : {mot_supprime[1]}' a été supprimé.")
+        choice = int(input("\nEnter the number of the word to delete : "))
+        if 1 <= choice <= len(words):
+            deleted_word = words.pop(choice - 1)
+            save_words(words)
+            print(f"The word '{deleted_word[0]} : {deleted_word[1]}' has been deleted.")
         else:
-            print("Numéro invalide.")
+            print("Invalid number.")
     except ValueError:
-        print("Veuillez entrer un numéro valide.")
+        print("Please enter a valid number.")
 
-def interroger():
-    mots = charger_mots()
-    if not mots:
-        print("Aucun mot disponible pour l'interrogation. Ajoutez d'abord des mots.")
+def quiz():
+    words = load_words()
+    if not words:
+        print("No words available for quizzing. Please add words first.")
         return
     
-    # Filtrer les tuples avec 0 points ou moins de 7 points
-    mots_a_interroger = [(mot_anglais, mot_francais, points) for mot_anglais, mot_francais, points in mots if points < 7]
+    # Filter tuples with 0 points or less than 7 points
+    words_to_quiz = [(english_word, french_word, points) for english_word, french_word, points in words if points < 7]
     
-    if not mots_a_interroger:
-        print("Tous les mots ont atteint le nombre maximum de points (7).")
+    if not words_to_quiz:
+        print("All words have reached the maximum number of points (7).")
         return
     
-    # Choisir un mot aléatoire parmi ceux à interroger
-    mot_anglais, mot_francais, points = random.choice(mots_a_interroger)
+    # Choose a random word from those to quiz
+    english_word, french_word, points = random.choice(words_to_quiz)
     
-    # Choisir aléatoirement si on demande la traduction en français ou en anglais
+    # Randomly choose whether to ask for the translation in French or English
     if random.choice([True, False]):
-        question = f"Quelle est la traduction en français de '{mot_anglais}' ? "
-        reponse_correcte = mot_francais
+        question = f"What is the translation in French of '{english_word}' ? "
+        correct_answer = french_word
     else:
-        question = f"Quelle est la traduction en anglais de '{mot_francais}' ? "
-        reponse_correcte = mot_anglais
+        question = f"What is the translation in English of '{french_word}' ? "
+        correct_answer = english_word
     
-    # Poser la question
-    reponse_utilisateur = input(question)
+    # Ask the question
+    user_answer = input(question)
     
-    # Ignorer les réponses vides
-    if not reponse_utilisateur.strip():  # Vérifie si la réponse est vide ou contient uniquement des espaces
-        print("Réponse vide ignorée.")
+    # Ignore empty answers
+    if not user_answer.strip():  # Check if the answer is empty or contains only spaces
+        print("Empty answer ignored.")
         return
     
-    # Normaliser les réponses (supprimer les accents et mettre en minuscules)
-    reponse_utilisateur_normalisee = supprimer_accents(reponse_utilisateur.lower())
-    reponse_correcte_normalisee = supprimer_accents(reponse_correcte.lower())
+    # Normalize answers (remove accents and convert to lowercase)
+    normalized_user_answer = remove_accents(user_answer.lower())
+    normalized_correct_answer = remove_accents(correct_answer.lower())
     
-    # Vérifier la réponse
-    if reponse_utilisateur_normalisee == reponse_correcte_normalisee:
+    # Check the answer
+    if normalized_user_answer == normalized_correct_answer:
         print("Correct !")
-        points += 1  # Ajouter 1 point
+        points += 1  # Add 1 point
     else:
-        print(f"Incorrect. La réponse correcte était : {reponse_correcte}")
+        print(f"Incorrect. The correct answer was : {correct_answer}")
     
-    # Mettre à jour les points dans la liste des mots
-    for i, (ma, mf, p) in enumerate(mots):
-        if ma == mot_anglais and mf == mot_francais:
-            mots[i] = (ma, mf, min(points, 7))  # Limiter à 4 points maximum
+    # Update the points in the word list
+    for i, (ew, fw, p) in enumerate(words):
+        if ew == english_word and fw == french_word:
+            words[i] = (ew, fw, min(points, 7))  # Limit to 7 points maximum
             break
     
-    # Sauvegarder les mots mis à jour
-    sauvegarder_mots(mots)
+    # Save the updated words
+    save_words(words)
 
 def main():
     while True:
-        print("\n1. Ajouter un mot")
-        print("2. S'interroger")
-        print("3. Afficher la liste des mots")
-        print("4. Supprimer un mot")
-        print("5. Quitter")
-        choix = input("Choisissez une option (1, 2, 3, 4 ou 5) : ")
+        print("\n1. Add a word")
+        print("2. Quiz")
+        print("3. Display the list of words")
+        print("4. Delete a word")
+        print("5. Quit")
+        choice = input("Choose an option (1, 2, 3, 4 or 5) : ")
         
-        if choix == "1":
-            mot_anglais, mot_francais = demander_mot()
-            if mot_anglais is None or mot_francais is None:
-                print("Merci d'avoir utilisé le programme. À bientôt !")
+        if choice == "1":
+            english_word, french_word = ask_word()
+            if english_word is None or french_word is None:
+                print("Thank you for using the program. Goodbye !")
                 break
-            enregistrer_mot(mot_anglais, mot_francais)
-            print("Mot enregistré avec succès !")
+            save_word(english_word, french_word)
+            print("Word saved successfully !")
         
-        elif choix == "2":
-            interroger()
+        elif choice == "2":
+            quiz()
         
-        elif choix == "3":
-            afficher_mots()
+        elif choice == "3":
+            display_words()
         
-        elif choix == "4":
-            supprimer_mot()
+        elif choice == "4":
+            delete_word()
         
-        elif choix == "5":
-            print("Merci d'avoir utilisé le programme. À bientôt !")
+        elif choice == "5":
+            print("Thank you for using the program. Goodbye !")
             break
         
         else:
-            print("Option invalide. Veuillez choisir 1, 2, 3, 4 ou 5.")
+            print("Invalid option. Please choose 1, 2, 3, 4 or 5.")
 
 if __name__ == "__main__":
     main()
