@@ -10,6 +10,7 @@ My goal is to continue my education until I obtain an engineering degree in Netw
 |     Project             |                 Skills                      |     Tools         |      Link       |
 | ----------------------- | ------------------------------------------- | ----------------- | --------------- |
 | English vocabulary quiz | Test and Debbug Archtecture, Implementation of Rules, Text Normalization       | Python, Mistral, Terminal | <a href="Documentation.md">Documentation</a>, <a href="script.py"> Source code</a>, <a href="mots.txt">File containing words</a> |
+| Firewall Simulation | Programmation, Network concept | Python, Tutorial on Youtube |  <a href="Documentation.md">Documentation</a>, <a href="script.py"> Source code</a>, <a href="mots.txt">File containing words</a> |
 
 
 # Certifications 
