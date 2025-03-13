@@ -17,4 +17,5 @@ List our your certifications and/or link to them. Also include the ones you plan
 
 |     Certification     |               Completed?               |     Link       |
 | --------------------  | -------------------------------------- | ---------------| 
-| CCNA                  |             In progress                |     <a href="[https://google.com]https://www.cisco.com/site/us/en/learn/training-certifications/certifications/enterprise/ccna/index.html">CCNA Cisco </a>      | 
+| CCNA                  |             In progress                |     <a href="https://www.cisco.com/site/us/en/learn/training-certifications/certifications/enterprise/ccna/index.html">CCNA Cisco</a> |
+| Ethical hacking       |             In progress                | 
