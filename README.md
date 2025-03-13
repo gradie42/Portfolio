@@ -17,5 +17,5 @@ List our your certifications and/or link to them. Also include the ones you plan
 
 |     Certification     |               Completed?               |     Link       |
 | --------------------  | -------------------------------------- | ---------------| 
-| CCNA – Cisco Certified Network Associate               |             In progress                |     <a href="https://www.cisco.com/site/us/en/learn/training-certifications/certifications/enterprise/ccna/index.html">CCNA Cisco</a> |
+| Cisco - CCNA Certificate               |             In progress                |     <a href="https://www.cisco.com/site/us/en/learn/training-certifications/certifications/enterprise/ccna/index.html">CCNA Cisco</a> |
 | Cisco – Ethical Hacking Certificate     |             In progress                | 
