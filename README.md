@@ -10,7 +10,8 @@ My goal is to continue my education until I obtain an engineering degree in Netw
 |     Project             |                 Skills                      |     Tools         |      Link       |
 | ----------------------- | ------------------------------------------- | ----------------- | --------------- |
 | English vocabulary quiz | Test and Debbug Archtecture, Implementation of Rules, Text Normalization       | Python, Mistral, Terminal | <a href="Documentation.md">Documentation</a>, <a href="script.py"> Source code</a>, <a href="mots.txt">File containing words</a> |
-|Complete Docker Course - From BEGINNER to PRO! (Learn Containers) |
+|Complete Docker Course - From BEGINNER to PRO! (Learn Containers) ||| https://www.youtube.com/watch?v=RqTEHSBrYFw&t=2887s |
+|Complete Terraform Course - From BEGINNER to PRO! (Learn Infrastructure as Code) ||| https://www.youtube.com/watch?v=7xngnjfIlK4&t=56s |
 
 
 # Certifications 
