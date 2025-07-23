@@ -2,8 +2,7 @@
 
 # Portfolio
 
-Passionate about the field of Cybersecurity, I am actively involved in acquiring new knowledge and practical skills. 
-My goal is to continue my education until I obtain an engineering degree in Netwokrs and Security at ESIEE.
+Passionate about DevOps, I am actively involved in acquiring new knowledge and practical skills in these fields. My goal is to continue my education until I obtain an engineering degree in Networks and Security at ESIEE. I enjoy working on automation, infrastructure as code, and continuous integration/deployment pipelines.
 
 
 # Project Overview 
