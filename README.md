@@ -3,13 +3,14 @@
 # Portfolio
 
 Passionate about DevOps, I am actively involved in acquiring new knowledge and practical skills in these fields. My goal is to continue my education until I obtain an engineering degree in Networks and Security at ESIEE. I enjoy working on automation, infrastructure as code, and continuous integration/deployment pipelines.
-[Tableau_de_synthese_-_Epreuve_E4_-_BTS_SIO_2023.xlsx](https://github.com/user-attachments/files/21585264/Tableau_de_synthese_-_Epreuve_E4_-_BTS_SIO_2023.xlsx)
+
 
 
 # Project Overview 
 |     Project             |                 Skills                      |     Tools         |      Link       |
 | ----------------------- | ------------------------------------------- | ----------------- | --------------- |
 | English vocabulary quiz | Test and Debbug Archtecture, Implementation of Rules, Text Normalization       | Python, Mistral, Terminal | <a href="Documentation.md">Documentation</a>, <a href="script.py"> Source code</a>, <a href="mots.txt">File containing words</a> |
+|BTS SIO option SISR  | | | [Tableau_de_synthese_-_Epreuve_E4_-_BTS_SIO_2023.xlsx](https://github.com/user-attachments/files/21585264/Tableau_de_synthese_-_Epreuve_E4_-_BTS_SIO_2023.xlsx)  |
 
 
 # Certifications 
